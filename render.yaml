@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: frame-parts-reserve-tool
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
-    envVars:
-      - key: FRAME_PARTS_TOOL_HOST
-        value: 0.0.0.0
